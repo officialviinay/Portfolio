@@ -910,7 +910,8 @@ flex-wrap: wrap;
 @media (max-width:462px){
 
     .home {
-        height: 120vh;
+        height: auto;
+        padding: 50% 4%;
         background: url(vinay2nd\ .png) no-repeat;
         background-size: auto;
         background-position: 50% 0%;
@@ -971,7 +972,15 @@ flex-wrap: wrap;
 
     .footer-text p {
         font-size: 1.8rem;
-    }
+    }    
 
-    
+    .home-sci{
+    position: absolute;
+    bottom: 0px;
+    top: 125%;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    }
 }
+
